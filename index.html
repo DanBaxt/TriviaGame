@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+  <html lang ="en">
+    <head>
+
+        <meta charset="utf-8">
+        <title>Trivia Quiz</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
+
+        <body>
+
+           <div class = "container" id="container-1">
+               <h1 class = "logo">Final Fantasy Trivia Game</h1>
+               <button id = "start_button">Start</button>
+           </div>
+           <div class = "container" id = "container-2">
+                <h1 class = "logo">Final Fantasy Trivia Game</h1>
+
+                <h3 id = "timer">Time Remaining: <span id ="time_left">60 Seconds</span></h3>
+
+                <br>
+               
+                <h4>1. What is the name of Sephiroth's sword in Final Fantasy VII?</h4>
+            <!--Masamune-->
+                    <input type="radio" name="Q1" value = "Muramasa">Muramasa
+                    <input type="radio" name="Q1" value = "Masamune">Masamune
+                    <input type="radio" name="Q1" value = "Murasame">Murasame
+                    <input type="radio" name="Q1" value = "Musashi">Musashi
+
+                <h4>2. Who is the singer of the opera scene in Final Fantasy VI?</h4>
+            <!--Celes-->
+                    <input type="radio" name="Q2" value = "Celes">Celes
+                    <input type="radio" name="Q2" value = "Terra">Terra
+                    <input type="radio" name="Q2" value = "Locke">Locke
+                    <input type="radio" name="Q2" value = "Aerith">Aerith
+
+                <h4>3. What is the canonical name of Final Fantasy I's hero??</h4>
+            <!--Warrior of Light-->
+                    <input type="radio" name="Q3" value = "Warrior of Hope">Warrior of Hope
+                    <input type="radio" name="Q3" value = "Warrior of Life">Warrior of Life
+                    <input type="radio" name="Q3" value = "Warrior of the Crystal">Warrior of the Crystal
+                    <input type="radio" name="Q3" value = "Warrior of Light">Warrior of Light
+
+                <h4>4. Which of these four espers from Final Fantasy XII is not required to fight to complete the story?</h4>
+            <!--Zeromus, the Condemner-->
+                    <input type="radio" name="Q4" value = "Hashmal, Bringer of Order">Hasmal, Bringer of Order
+                    <input type="radio" name="Q4" value = "Shemhazai, the Whisperer">Shemhazai, the Whisperer
+                    <input type="radio" name="Q4" value = "Mateus, the Corrupt">Mateus, the Corrupt
+                    <input type="radio" name="Q4" value = "Zeromus, the Condemner">Zeromus, the Condemner
+               
+                <h4>5. In Final Fantasy X, who is the true form of Sin?</h4>
+            <!--Jecht-->
+                    <input type="radio" name="Q5" value = "Tidus">Tidus
+                    <input type="radio" name="Q5" value = "Seymour">Seymour
+                    <input type="radio" name="Q5" value = "Jecht">Jecht
+                    <input type="radio" name="Q5" value = "A Chocobo">A Chocobo
+
+                    <br>
+
+                    <button id = "done_button">Done</button>
+            </div>
+                
+            <div class = "container" id = "container-3">
+            <h1 class = "logo">Final Fantasy Trivia Game</h1>
+
+            <h1 class = "results">Results</h1>
+
+            <br>
+
+                <h1>Correct Answers: <span id = "correct_answers">0</span></h1>
+			    <h1>Incorrect Answers: <span id = "wrong_answers">0</span></h1>
+
+            </div>
+    
+            <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+            <script src="assets/javascript/app.js"></script>
+</body>
+</html>
